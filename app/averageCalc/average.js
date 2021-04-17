@@ -48,5 +48,5 @@ function executionFunction(callback){
 
 
 executionFunction(val =>{
-    console.log(val);
+    console.log(val); //! pokazuje tablice składającą się z 10 elementów
 })
