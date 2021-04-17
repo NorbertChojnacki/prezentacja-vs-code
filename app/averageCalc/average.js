@@ -24,7 +24,7 @@ function averageCalculator(array, callback){
     });
     callback(sum/array.length);
 }
-
+// hello
 /**
  * @param {finalCall} callback
  * @callback finalCall
