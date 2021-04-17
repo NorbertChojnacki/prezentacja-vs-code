@@ -1,0 +1,3 @@
+form > div.div + ul{  /* przy najechaniu na form > div.div + ul bedziemy mieli podpowieć jak to wyglada w htmlu */
+    display: none;
+}

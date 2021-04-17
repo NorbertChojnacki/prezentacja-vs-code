@@ -1,0 +1,18 @@
+kiedy wywołuje sie komende "tsc" to odwołuje się ona do 
+tsconfig i uzywa outDir, natomiast komenda "tsc plik.ts" 
+nie uzywa outDir
+
+
+w app.js przy emo trzeba dac kropke i beda podpowiedzi z myTypes
+
+kiedy się kliknie w zebatke to mamy opcje 
+Add to workspace (...) 
+
+Jeśli nad nowo zdefiniowaną funkcją napiszemy /** i klikniemy enter
+to wszystkie argumenty wezmie nam do zdefiniowania
+
+kiedy mamy kilka place holderów przemieszczamy się pomiędzy nimi tabami
+
+jeżeli chcemy mieć kursor w kilku miejscach naraz w snippetach po prostu wpisujemy tam $0, $1 etc
+
+przy najechaniu na formule w css
