@@ -12,9 +12,9 @@ Aby stworzyć snippety użytkownika należy:
 5. Zostaniemy następnie przeniesieni w nowym oknie do pliku z rozsrzerzeniem ``.code-snippets`` ze składnią json
 6. Zaczynamy pisać :D
 
-Do tworzenia własnych snippetów polecam stronę [Dokumentacja snippetów VS Code](https://code.visualstudio.com/docs/editor/userdefinedsnippets "Dokumentacja snippetów VS Code")
+Bardzo dobry opis tworzenia snippetów: [Dokumentacja snippetów VS Code](https://code.visualstudio.com/docs/editor/userdefinedsnippets "Dokumentacja snippetów VS Code")
 
-Moje podpowiedzi:
+### Moje podpowiedzi:
 - jeżeli chcemy zrobić wcięcie w kodzie używamy ``\t``
 - jeżeli chcemy żeby nasz kursor znajdował się w kilku miejscach piszemy ``$cyfra`` w tych miejscach
 - jeżeli chcemy przeskoczyć pomiędzy paroma miejscami kursora klikamy ``tab``
@@ -28,11 +28,39 @@ Są one proste w zastosowaniu i najlepiej jest zapoznać się z [Dokumentacja em
 
 TS oferuje obsługę typów, a w połączeniu z [JSDoc](https://jsdoc.app/ 'Dokumentacja JSDoc') oferuje nam tworzenie własnej 'dokumentacji' z VS Code dla JavaScript. Więcej: [IntelliSense based on TypeScript Declaration Files](https://github.com/microsoft/TypeScript/wiki/JavaScript-Language-Service-in-Visual-Studio#user-content--intellisense-based-on-typescript-declaration-files 'IntelliSense based on TypeScript Declaration Files')
 
-Moje podpowiedzi:
+### Moje podpowiedzi:
 - aby stworzyć komentarz JSDoc należy stworzyć następujący komentarz:
  ```
  /**  
  *
  */
  ``` 
-- żeby poprawnie zadeklarować 
+- żeby szybko stworzyć komentarz JSDoc nad zdefiniowaną funkcją z parametrami należy napisać ``/** `` i wcisnąć ``tab``
+- żeby poprawnie zadeklarować funkcję callback należy użyć następującej składni:
+```
+/**
+*@param {'nasza nazwa dla callbacku'} nazwa_zmiennej
+*@callback 'nasza nazwa dla callbacku'
+*@param {typ_zmiennej} 'nazwa wartości zwracanej w callbacku' ilość paramów zależy od ilości zmiennych dla callbacku
+*/
+```
+
+np.
+
+```
+/**
+ * @param {finalCall} callback
+ * @callback finalCall
+ * @param {Number[]} finalValues
+ */
+function funkcja(callback){
+    ...
+    callback(finalCall);
+}
+
+funkcja((finalCall)=>{
+    ...
+});
+```
+- żeby korzystać z możliwości TS należy stworzyć plik z rozszerzeniem ``.d.ts`` a następnie skorzystać z komentarza w JSDoc (patrz plik ``app.js`` linijka 21 i plik ``myTypes.d.ts`` w folderze ``app``)
+
