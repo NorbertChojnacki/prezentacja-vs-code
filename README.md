@@ -30,7 +30,9 @@ TS oferuje obsługę typów, a w połączeniu z [JSDoc](https://jsdoc.app/ 'Doku
 
 Moje podpowiedzi:
 - aby stworzyć komentarz JSDoc należy stworzyć następujący komentarz:
- ``/**``  
- ``*``  
- ``*/``  
+ ```
+ /**  
+ *
+ */
+ ``` 
 - żeby poprawnie zadeklarować 
