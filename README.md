@@ -64,3 +64,16 @@ funkcja((finalCall)=>{
 ```
 - żeby korzystać z możliwości TS należy stworzyć plik z rozszerzeniem ``.d.ts`` a następnie skorzystać z komentarza w JSDoc (patrz plik ``app.js`` linijka 21 i plik ``myTypes.d.ts`` w folderze ``app``)
 
+## Debbuger oraz Git i GitHub w VSCode
+
+Tutaj mogę polecić dwa filmy, z których sam korzystałem przygotowując się do prezentacji:
+- [Git i GitHub w VSCode](https://www.youtube.com/watch?v=F2DBSH2VoHQ 'podstawy gita i githuba w vscode') (Niestety nie ma tam powiedziane o pull requestach o łączeniu branchy)
+
+- [Debuggowanie](https://www.youtube.com/watch?v=7qZBwhSlfOo 'podstawy debbugowania') (jest to na podstawie pythona, ale zasada działania jest w gruncie rzeczy taka sama)
+
+#### Artkuły przydatne przy korzystaniu z debuggera:
+- [Debuggowanie w VSCode](https://code.visualstudio.com/docs/editor/debugging 'Debuggowanie w VSCode')
+- [Debuggowanie node'a](https://code.visualstudio.com/docs/nodejs/nodejs-debugging 'Debuggowanie node')
+
+### Moje uwagi:
+W przypadku chęci debuggowania z użyciem różnych przeglądarek trzeba zainstalować rozszerzenia. Jest tam sposób konfiguracji debuggera, aby to działało oraz rozwiązania najczęstszych problemów. W przypadku jakichkolwiek problem polecam rozpocząć szukanie rozwiązania od dokumentacji wspomnianych rozszerzeń
