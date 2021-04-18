@@ -64,7 +64,7 @@ funkcja((finalCall)=>{
 ```
 - żeby korzystać z możliwości TS należy stworzyć plik z rozszerzeniem ``.d.ts`` a następnie skorzystać z komentarza w JSDoc (patrz plik ``app.js`` linijka 21 i plik ``myTypes.d.ts`` w folderze ``app``)
 
-## Debbuger oraz Git i GitHub w VSCode
+## Debugger oraz Git i GitHub w VSCode
 
 Tutaj mogę polecić dwa filmy, z których sam korzystałem przygotowując się do prezentacji:
 - [Git i GitHub w VSCode](https://www.youtube.com/watch?v=F2DBSH2VoHQ 'podstawy gita i githuba w vscode') (Niestety nie ma tam powiedziane o pull requestach o łączeniu branchy)
