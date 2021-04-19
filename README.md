@@ -26,6 +26,8 @@ Są one proste w zastosowaniu i najlepiej jest zapoznać się z [Dokumentacja em
 
 ## TypeScript w JavaScript
 
+![TypeScript JS meme](/src/tsjsmeme.png "TypeScript vs JavaScript meme")
+
 TS oferuje obsługę typów, a w połączeniu z [JSDoc](https://jsdoc.app/ 'Dokumentacja JSDoc') oferuje nam tworzenie własnej 'dokumentacji' z VS Code dla JavaScript. Więcej: [IntelliSense based on TypeScript Declaration Files](https://github.com/microsoft/TypeScript/wiki/JavaScript-Language-Service-in-Visual-Studio#user-content--intellisense-based-on-typescript-declaration-files 'IntelliSense based on TypeScript Declaration Files')
 
 ### Moje podpowiedzi:
