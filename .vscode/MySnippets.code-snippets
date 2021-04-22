@@ -52,7 +52,7 @@
 		"scope": "javascript",
 		"prefix": "eget",
 		"body": [
-			"${1|express, app|}.get((req,res)=>{",
+			"${1|express, app,https|}.get((req,res)=>{",
 			"\t$0",
 			"});"
 		],
