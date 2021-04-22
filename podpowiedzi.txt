@@ -16,3 +16,9 @@ kiedy mamy kilka place holderów przemieszczamy się pomiędzy nimi tabami
 jeżeli chcemy mieć kursor w kilku miejscach naraz w snippetach po prostu wpisujemy tam $0, $1 etc
 
 przy najechaniu na formule w css
+
+
+
+
+
+
