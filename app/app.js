@@ -30,4 +30,3 @@ let obj;
 //obj.id = "string"; //! podkreśla błąd bo to number chce przypisać string
 
 // obj.name = "Norbert";
-
